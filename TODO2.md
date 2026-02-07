@@ -1,8 +1,0 @@
-- Update Unit One title in index.html to "Principles of Mass Communication"
-- Update Unit Two title in index.html to "Media and Society"
-- Update Unit Three title in index.html to "Introduction to Communication Studies"
-- Update Unit Four title in index.html to "History of Mass Communication"
-- Update Unit Five title in index.html to "English for Mass Communication"
-- Update Unit Six title in index.html to "Critical Thinking and Problem Solving"
-- Update Unit Seven title in index.html to "Communication and Collaboration Skills"
-- Remove Unit Eight section from index.html
