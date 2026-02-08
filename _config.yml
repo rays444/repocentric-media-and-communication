@@ -45,9 +45,9 @@ exclude:
 include:
   - .nojekyll
 
-# URL settings
-# For local development
-url: "http://localhost:4000"
+# URL settings for GitHub Pages
+url: "https://rays444.github.io/future-whispers-blue"
+baseurl: "/future-whispers-blue"
 baseurl: ""
 
 # Build settings

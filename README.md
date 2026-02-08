@@ -1,4 +1,3 @@
-﻿# Media and Communication Report
 
 This repository contains a comprehensive academic report on Media and Communication, structured into units covering various aspects of the field.
 
@@ -33,4 +32,3 @@ The report explores the foundations, types, systems, ethics, journalism, digital
 
 ---
 
-_Last Updated: {{ site.time | date: '%B %d, %Y' }}_
