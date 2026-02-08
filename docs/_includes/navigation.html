@@ -1,0 +1,33 @@
+<!-- Navigation Include -->
+<nav class="breadcrumb">
+  <div class="breadcrumb-container">
+    <a href="{{ '/' | relative_url }}" class="breadcrumb-home">🏠 Home</a>
+    {% if page.breadcrumbs %}
+      {% for item in page.breadcrumbs %}
+        <span class="breadcrumb-separator">/</span>
+        {% if item.url %}
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% else %}
+          <span class="breadcrumb-current">{{ item.title }}</span>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</nav>
+
+<!-- Table of Contents for current page -->
+{% if page.toc != false %}
+<aside class="page-toc">
+  <h3>On this page</h3>
+  {% capture headings %}
+    {{ content | scan: /<h([2-4]) id="([^"]*)"[^>]*>([^<]*)<\/h\1>/ }}
+  {% endcapture %}
+  {% if headings != "" %}
+    <ul>
+      {% for heading in headings %}
+        <li><a href="#{{ heading[1] }}">{{ heading[2] }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</aside>
+{% endif %}

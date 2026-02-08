@@ -39,14 +39,19 @@ exclude:
   - START_SERVER.ps1
   - BUILD_SITE.bat
   - GETTING_STARTED.md
+  - nul
 
 # Include hidden files
 include:
   - .nojekyll
 
-# URL settings for GitHub Pages
-url: "https://rays444.github.io/repocentric-media-and-communication"
-baseurl: "/repocentric-media-and-communication"
+# URL settings
+# For localhost: use empty baseurl
+# For GitHub Pages: uncomment lines below and comment out baseurl: ""
+url: "http://127.0.0.1:4000"
+baseurl: ""
+# url: "https://rays444.github.io/repocentric-media-and-communication"
+# baseurl: "/repocentric-media-and-communication"
 
 # Build settings
 keep_files:
