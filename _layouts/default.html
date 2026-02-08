@@ -4,16 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title | default: site.title }}</title>
-    <link
-      rel="stylesheet"
-      href="{{ site.baseurl }}/assets/css/style.css"
-    />
+    <link rel="stylesheet" href="/repocentric-media-and-communication/assets/css/style.css" />
     {% seo %}
   </head>
   <body>
     <header>
       <nav>
-        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <h1><a href="/repocentric-media-and-communication/">{{ site.title }}</a></h1>
         <p>{{ site.description }}</p>
       </nav>
     </header>
@@ -21,9 +18,7 @@
     <main>{{ content }}</main>
 
     <footer>
-      <p>
-        &copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights
-        reserved.
-      </p>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
     </footer>
   </body>
+</html>
