@@ -8,4 +8,5 @@ description: Understanding what communication is
 
 This section defines communication and its importance.
 
-[Insert content here]
+[**Communication** is the process of sharing information, ideas, or feelings from one person to another using words, signs, or symbols.
+]
