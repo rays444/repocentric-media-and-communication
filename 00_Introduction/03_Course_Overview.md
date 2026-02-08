@@ -1,3 +1,9 @@
+---
+layout: page
+title: Course Overview
+description: Understanding the Media and Communication course
+---
+
 ## Course Overview
 
 The Media and Communication course provides a foundational understanding of how communication operates within personal, social, and mass media contexts. It explores the principles, processes, and functions of communication, emphasizing the role of media in shaping public opinion, culture, and society.

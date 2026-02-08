@@ -1,0 +1,80 @@
+# Jekyll Configuration
+title: Media and Communication Report
+description: Academic report on Media and Communication structured into comprehensive units
+author: Joshua
+email: joshua@example.com
+tagline: Complete Guide to Media and Communication Studies
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+
+# Theme
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Permalink structure
+permalink: /:categories/:title/
+
+# Collections
+collections:
+  units:
+    output: true
+    permalink: /:collection/:path/
+
+# Exclude directories and files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .git
+  - .gitignore
+  - .sass-cache
+  - .jekyll-cache
+  - START_SERVER.bat
+  - START_SERVER.ps1
+  - BUILD_SITE.bat
+  - GETTING_STARTED.md
+
+# Include hidden files
+include:
+  - .nojekyll
+
+# URL settings
+# For local development
+url: "http://localhost:4000"
+baseurl: ""
+
+# Build settings
+keep_files:
+  - .git
+  - .gitignore
+
+# Server settings
+show_dir_listing: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Front matter settings
+front_matter_defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+      toc: true

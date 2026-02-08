@@ -1,0 +1,16 @@
+<!-- Footer Navigation -->
+<div class="footer-nav">
+  {% if page.previous %}
+  <a href="{{ page.previous.url | relative_url }}" class="nav-prev"
+    >&larr; {{ page.previous.title }}</a
+  >
+  {% endif %}
+
+  <a href="{{ '/' | relative_url }}" class="nav-home">Table of Contents</a>
+
+  {% if page.next %}
+  <a href="{{ page.next.url | relative_url }}" class="nav-next"
+    >{{ page.next.title }} &rarr;</a
+  >
+  {% endif %}
+</div>

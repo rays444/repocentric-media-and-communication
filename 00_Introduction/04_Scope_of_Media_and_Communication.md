@@ -1,3 +1,9 @@
+---
+layout: page
+title: Scope of Media and Communication
+description: Understanding the scope of media and communication studies
+---
+
 ## Scope of Media and Communication
 
 This report covers the fundamental areas of Media and Communication, focusing on the concepts, principles, and practices that define the field. It examines both interpersonal and mass communication, highlighting how messages are created, transmitted, received, and interpreted across different media platforms.

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Author Introduction
+description: About MR OJO
+---
+
 ## Author Introduction
 
 MR OJO is a student of Media and Communication Studies with a strong interest in leadership, research, and innovation. He is the second-born in a family of four, an experience that has shaped his sense of responsibility, cooperation, and commitment to growth.

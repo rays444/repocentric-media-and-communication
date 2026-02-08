@@ -1,3 +1,9 @@
+---
+layout: page
+title: Copyright and Declaration
+description: Copyright information and academic declaration
+---
+
 ## Copyright and Declaration
 
 © 2026 Ombati Joshua Orina . All rights reserved.

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Objectives of the Report
+description: Learning objectives and goals
+---
+
 ## Objectives of the Report
 
 The objectives of this Media and Communication report are to:
