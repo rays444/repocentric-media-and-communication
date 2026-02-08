@@ -46,8 +46,8 @@ include:
   - .nojekyll
 
 # URL settings for GitHub Pages
-url: "https://rays444.github.io/future-whispers-blue"
-baseurl: "/future-whispers-blue"
+url: "https://rays444.github.io/repocentric-media-and-communication"
+baseurl: "/repocentric-media-and-communication"
 baseurl: ""
 
 # Build settings
